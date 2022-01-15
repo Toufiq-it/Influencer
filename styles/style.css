@@ -10,7 +10,18 @@ h1{
     font-size: 52px;
     color: #3A3A3A;
 }
+h2{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 30px;
+}
 h3{
+    font-size: 24px;
+    color: #3A3A3A;
+    
+}
+.store{
     font-size: 24px;
     color: #3A3A3A;
     margin-left: 10%;
@@ -19,6 +30,7 @@ section{
     display: flex;
 }
 .half-width{
+    padding: 30px;
     width: 50%;
     padding-left: 10%;
 }
@@ -34,4 +46,88 @@ section{
 }
 .fa-arrow-right{
     margin: 0px 8px;
+}
+
+/* Populer collection */
+.container{
+    justify-content: center;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    border-radius: 5px;
+    
+    
+}
+.collection-item{
+    width: 300px;
+    height: 470px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    justify-content: center;
+}
+
+.items{
+    width: 300px;
+    height: 256px;
+}
+.collection-rating{
+    display: flex;
+    align-items: center;
+}
+.rating{
+    margin-left: 10px;
+}
+
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    
+}
+.fa-star{
+    font-size: 16px;
+}
+
+/*------------
+   See more
+ -------------*/
+.more{
+    text-decoration: none;
+    padding-left: 1310px;
+}
+.see-more{
+    color: #E02C6D;
+    font-size: 16px;
+}
+#arrow{
+    color: #E02C6D;
+}
+
+/* Footer */
+
+h5{
+    color: rgb(180, 167, 167);
+
+}
+#cr{
+    color: white;
+}
+#icon{
+    color: white;
+    margin: 0px 10px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+    margin-top: 5%;
 }
